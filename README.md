@@ -1,4 +1,4 @@
-isay
+iSay
 ====
 
-一个blog程序
+一个Ruby Sinatra Web框架开发的Blog程序
