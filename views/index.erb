@@ -18,7 +18,7 @@
 					<li><a href="/">首页</a></li>
 					<li><a href="/">分类</a></li>
 					<li><a href="/">精华</a></li>
-					<li><a href="/post">发布</a></li>
+					<li><a href="/topic/post">发布</a></li>
 					<li><a href="/register">注册</a></li>
 					<li><a href="/login">登录</a></li>
 				</ul>
@@ -40,7 +40,10 @@
 							<h3><a href="##"><%= topic[:by_username] %></a>的日记 - <%= topic[:created_at] %></h3>
 							<p><a href="/topic/<%= topic[:id] %>"><%= topic[:topic] %>...</a></p>
 							<div class="udvs">
-								<span>Up <%= topic[:ups] %></span><span>Down <%= topic[:downs] %></span><span>View <%= topic[:views] %></span>
+								<span>Up <%= topic[:ups] %></span>
+								<span>Down <%= topic[:downs] %></span>
+								<span>View <%= topic[:views] %></span>
+								<span>Hot <%= topic[:hotness] %></span>
 								<div class="clear"></div>
 							</div>
 							<div class="clear"></div>

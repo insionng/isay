@@ -30,6 +30,7 @@ class Topic < Sequel::Model
 			varchar :ups
 			varchar :downs
 			varchar :views
+			varchar :hotness
 			DateTime :created_at
 			DateTime :updated_at
 		end

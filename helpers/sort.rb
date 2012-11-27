@@ -20,5 +20,5 @@ module Sort
   end
   
 end
-tme=Time.new(2012, 11, 20)
-puts Sort.hot(tme,199,9)
+#tme=Time.new(2012, 11, 20)
+#puts Sort.hot(tme,199,9)

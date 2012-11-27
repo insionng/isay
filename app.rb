@@ -7,4 +7,7 @@ require 'erb'
 
 #set :environment, :production
 require "./models"
-require "./routes"
+require "./settings"
+require "./controllers/loader"
+
+ISay::App.run!
